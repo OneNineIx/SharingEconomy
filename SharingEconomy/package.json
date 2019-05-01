@@ -1,0 +1,19 @@
+{
+  "name": "sharingeconomy",
+  "version": "1.0.0",
+  "description": "sharing tools",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sharing",
+    "Economy"
+  ],
+  "author": "JS_H",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
