@@ -42,7 +42,7 @@ module.exports = {// myIP = "http://localhost:3000/location"
                         // }
                         $(function () {
                             $.ajax({
-                                    url: myIP,
+                                    url: ${myIP},
                                     dataType: 'json',
                                     type: 'POST',
                                     data: {
