@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const template = require('../lib/template.js')
 const kakaoKey = process.argv[2] // key
-const ç = process.argv[3] // IP
+const myIP = process.argv[3] // IP
 
 
 router.get('/', function(req,res){
