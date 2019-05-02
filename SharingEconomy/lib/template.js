@@ -1,5 +1,5 @@
-module.exports = {
-    HTML: (kakaoKey) => {
+module.exports = {// myIP = "http://localhost:3000/location"
+    HTML: (kakaoKey,myIP) => {
         return `
 <!DOCTYPE html>
 <html>
@@ -42,7 +42,7 @@ module.exports = {
                         // }
                         $(function () {
                             $.ajax({
-                                    url: "http://localhost:3000/location",
+                                    url: myIP,
                                     dataType: 'json',
                                     type: 'POST',
                                     data: {
