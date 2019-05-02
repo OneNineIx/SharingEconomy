@@ -6,7 +6,7 @@ module.exports = {// myIP = "http://localhost:3000/location"
 <head>
     <meta charset="UTF-8">
     <title>Insert title here</title>
-    <script type="text/javascript" src=${kakaoKey}></script>
+    <script type="text/javascript" src="${kakaoKey}"></script>
     <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
     <script>
         $(function () {
@@ -42,7 +42,7 @@ module.exports = {// myIP = "http://localhost:3000/location"
                         // }
                         $(function () {
                             $.ajax({
-                                    url: ${myIP},
+                                    url: "${myIP}",
                                     dataType: 'json',
                                     type: 'POST',
                                     data: {
