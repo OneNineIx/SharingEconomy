@@ -7,7 +7,7 @@ module.exports = {// myIP = "http://localhost:3000/location"
     <meta charset="UTF-8">
     <title>Insert title here</title>
     <script type="text/javascript" src="${kakaoKey}"></script>
-    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.js"></script>
     <script>
         $(function () {
             // Geolocation API에 액세스할 수 있는지를 확인
