@@ -5,7 +5,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const indexRouter = require('./routes/index');
 const location = require('./routes/writeLocation')
-
+const port = process.argv[4] // port
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -24,6 +24,6 @@ app.use(function (err, request, response, next) {
     response.status(500).send('500Error')
 })
 
-app.listen(443, function () {
+app.listen(port, function () {
     console.log('Example app listening on port 3000!');
 })
